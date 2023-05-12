@@ -17,3 +17,26 @@ for linha in matriz:
     print(linha)
 
 print(f'Total de pares: {total_pares}')
+
+#Matriz mais visivel:
+
+"""matriz = [[0,2,0,0,0,0,0], [0,0,0,0,6,0,0], [0,0,0,0,0,0,0], [0,0,4,0,0,0,0],
+          [0,4,0,0,0,0,0], [0,0,0,0,0,0,0], [0,0,0,8,0,0,0]]
+total_pares = 0
+
+
+for linha in range(7):
+    for coluna in range(7):
+        digitado = int(input(f'Digite o LIN {linha+1} COL {coluna+1}'))
+        matriz[linha][coluna] = digitado
+
+for linha2 in range(7):
+    print(matriz[linha2])
+
+for testar_linha in range(7):
+    for testar_coluna in range(7):
+        if matriz[testar_linha][testar_coluna] != 0:
+            if matriz[testar_linha][testar_coluna] % 2 == 0:
+                total_pares += 1
+
+print(f'Total de pares é: {total_pares}')"""
