@@ -40,3 +40,19 @@ for testar_linha in range(7):
                 total_pares += 1
 
 print(f'Total de pares é: {total_pares}')"""
+
+#Codigo do professor
+import random
+matriz = [[0] * 7 for i in range(7)]
+
+for lin in range(7):
+    for col in range(7):
+        matriz[lin][col] = random.randint(0,100)
+
+conta = 0
+for lin in range(7):
+    for col in range(7):
+        if matriz[lin][col] % 2 == 0:
+            conta += 1
+
+print(f"Numero de elementos: {conta}") #String Interpolation
