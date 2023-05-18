@@ -9,7 +9,8 @@ Exercícios Matrizes
 - O produto dos elementos da primeira linha;
 - A soma de todos os elementos;
 - O produto da diagonal principal.
-``` 1	2	3	4
+``` 
+    1	2	3	4
     5	6	7	8
     9	10	11	12
    13	14	15	16
